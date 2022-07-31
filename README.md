@@ -10,16 +10,21 @@ Hear the sellers first has to put their goods in the service before the customer
 
 ## ARCHITECTURAL DESIGN 
 
+<img width="600" hight="500" alt=" " src="/resources/Picture38.png">
+<img width="600" hight="500" alt=" " src="/resources/Picture39.png">
+<img width="600" hight="500" alt=" " src="/resources/Picture40.jpg">
+<img width="600" hight="500" alt=" " src="/resources/Picture41.png">
+
 
 
 ## SEEQUENCE DIAGRAM
 
-
-
-
+<img width="600" hight="500" alt=" " src="/resources/Picture42.png">
 
 
 ## Screenshots
 
 
-<img width="600" hight="500" alt=" " src="/resources/Picture20.png">
+<img width="600" hight="500" alt=" " src="/resources/Picture35.png">
+<img width="600" hight="500" alt=" " src="/resources/Picture36.png">
+<img width="600" hight="500" alt=" " src="/resources/Picture37.png">
