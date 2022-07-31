@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/category-getbyid" name="CategoryGetByID" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <log>
+                <property name="message" value="category get by id invoked"/>
+            </log>
+            <send>
+                <endpoint key="category_getbyid_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

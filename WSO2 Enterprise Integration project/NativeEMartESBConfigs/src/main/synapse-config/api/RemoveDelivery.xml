@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/delivery-remove" name="RemoveDelivery" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="DELETE">
+        <inSequence>
+            <log>
+                <property name="message" value="delivery-remove invoked"/>
+            </log>
+            <send>
+                <endpoint key="deliver_delete_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

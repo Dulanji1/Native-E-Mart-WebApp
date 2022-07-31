@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: ItemUpdate
+  description: API Definition of CartGetAll
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/item-update
+paths:
+  /:
+    put:
+      responses:
+        default:
+          description: Default response

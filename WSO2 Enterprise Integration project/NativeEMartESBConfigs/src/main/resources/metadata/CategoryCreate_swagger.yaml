@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: CategoryCreate
+  description: API Definition of CategoryCreate
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/category-create
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

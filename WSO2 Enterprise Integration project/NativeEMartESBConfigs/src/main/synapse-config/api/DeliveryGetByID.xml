@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/delevery-get-by-id" name="DeliveryGetByID" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <log>
+                <property name="message" value="delivery get by id invoked"/>
+            </log>
+            <send>
+                <endpoint key="delivery_get_by_id_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

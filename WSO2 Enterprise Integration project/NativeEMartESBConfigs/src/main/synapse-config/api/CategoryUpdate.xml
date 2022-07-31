@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/category-update" name="CategoryUpdate" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="PUT">
+        <inSequence>
+            <log>
+                <property name="message" value="category udpate invoked"/>
+            </log>
+            <send>
+                <endpoint key="category_update_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

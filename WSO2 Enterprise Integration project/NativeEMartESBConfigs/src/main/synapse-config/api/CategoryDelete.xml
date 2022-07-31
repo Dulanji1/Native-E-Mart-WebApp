@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/category-delete" name="CategoryDelete" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="DELETE">
+        <inSequence>
+            <log>
+                <property name="message" value="category remove invoked"/>
+            </log>
+            <send>
+                <endpoint key="category_remove_endoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

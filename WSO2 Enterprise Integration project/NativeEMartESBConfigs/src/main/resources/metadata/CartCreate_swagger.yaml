@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: CartCreate
+  description: API Definition of CartCreate
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/cart-create
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

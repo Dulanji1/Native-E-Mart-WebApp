@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/delivery-update" name="DeliveryUpdate" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="PUT">
+        <inSequence>
+            <log>
+                <property name="message" value="update-delivery invoked"/>
+            </log>
+            <send>
+                <endpoint key="delevery_update_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

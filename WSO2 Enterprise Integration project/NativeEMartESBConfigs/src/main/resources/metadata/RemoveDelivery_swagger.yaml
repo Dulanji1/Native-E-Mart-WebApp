@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: RemoveDelivery
+  description: API Definition of RemoveDelivery
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/delivery-remove
+paths:
+  /:
+    delete:
+      responses:
+        default:
+          description: Default response

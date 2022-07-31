@@ -1,0 +1,10 @@
+---
+key: "ItemUpdate-1.0.0"
+name : "ItemUpdate"
+displayName : "ItemUpdate"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/item-update"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

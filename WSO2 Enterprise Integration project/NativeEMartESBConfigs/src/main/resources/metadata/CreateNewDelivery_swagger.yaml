@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: CreateNewDelivery
+  description: API Definition of CreateNewDelivery
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/create-delivery
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

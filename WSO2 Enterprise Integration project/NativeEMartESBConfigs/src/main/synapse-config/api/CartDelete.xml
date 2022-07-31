@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/cart-delete" name="CartDelete" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="DELETE">
+        <inSequence>
+            <log>
+                <property name="message" value="cart delete invoked"/>
+            </log>
+            <send>
+                <endpoint key="cart_delete_byid_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

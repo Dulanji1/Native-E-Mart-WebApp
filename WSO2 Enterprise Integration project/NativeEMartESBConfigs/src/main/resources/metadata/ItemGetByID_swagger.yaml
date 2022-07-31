@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: ItemGetByID
+  description: API Definition of ItemGetByID
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/item-get-by-id
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response

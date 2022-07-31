@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: CategoryDelete
+  description: API Definition of CategoryDelete
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/category-delete
+paths:
+  /:
+    delete:
+      responses:
+        default:
+          description: Default response

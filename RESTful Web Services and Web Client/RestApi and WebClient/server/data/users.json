@@ -1,0 +1,16 @@
+[
+  {
+  "name"     : "Administrator",
+  "email"    : "admin@gmail.com",
+  "password" : "Shalitha123456",
+  "phone"    : "0771940055",
+    "role": "Administrator"
+  },
+  {
+  "name"     : "User",
+  "email"    : "user@gmail.com",
+  "password" : "Shalitha123456",
+  "phone"    : "0771940055",
+    "role": "User"
+  }
+]

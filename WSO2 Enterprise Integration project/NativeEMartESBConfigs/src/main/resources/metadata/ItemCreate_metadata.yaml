@@ -1,0 +1,10 @@
+---
+key: "ItemCreate-1.0.0"
+name : "ItemCreate"
+displayName : "ItemCreate"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/item-create"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

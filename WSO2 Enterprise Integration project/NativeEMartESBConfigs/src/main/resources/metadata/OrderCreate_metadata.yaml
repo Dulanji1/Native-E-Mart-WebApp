@@ -1,0 +1,10 @@
+---
+key: "OrderCreate-1.0.0"
+name : "OrderCreate"
+displayName : "OrderCreate"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/order-create"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

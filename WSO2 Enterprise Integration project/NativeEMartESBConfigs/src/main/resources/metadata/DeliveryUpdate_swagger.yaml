@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: DeliveryUpdate
+  description: API Definition of DeliveryUpdate
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/delivery-update
+paths:
+  /:
+    put:
+      responses:
+        default:
+          description: Default response

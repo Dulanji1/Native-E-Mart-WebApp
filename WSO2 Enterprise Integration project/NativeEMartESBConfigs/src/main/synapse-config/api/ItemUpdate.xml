@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/item-update" name="ItemUpdate" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="PUT">
+        <inSequence>
+            <log>
+                <property name="message" value="item update invoked"/>
+            </log>
+            <send>
+                <endpoint key="item_update_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

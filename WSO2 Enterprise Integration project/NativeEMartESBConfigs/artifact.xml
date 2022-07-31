@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="base_path" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/base_path.xml</file>
+    </artifact>
+    <artifact name="AuthService" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/AuthService.xml</file>
+    </artifact>
+    <artifact name="AuthService_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/AuthService_swagger.yaml</file>
+    </artifact>
+    <artifact name="AuthService_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/AuthService_metadata.yaml</file>
+    </artifact>
+    <artifact name="user_base" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/user_base.xml</file>
+    </artifact>
+    <artifact name="UserCreate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/UserCreate.xml</file>
+    </artifact>
+    <artifact name="UserCreate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/UserCreate_swagger.yaml</file>
+    </artifact>
+    <artifact name="UserCreate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/UserCreate_metadata.yaml</file>
+    </artifact>
+    <artifact name="account_confirm_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/account_confirm_endpoint.xml</file>
+    </artifact>
+    <artifact name="AccountConfirm" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/AccountConfirm.xml</file>
+    </artifact>
+    <artifact name="AccountConfirm_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/AccountConfirm_swagger.yaml</file>
+    </artifact>
+    <artifact name="AccountConfirm_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/AccountConfirm_metadata.yaml</file>
+    </artifact>
+    <artifact name="reset_password_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/reset_password_endpoint.xml</file>
+    </artifact>
+    <artifact name="ResetPassword" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ResetPassword.xml</file>
+    </artifact>
+    <artifact name="ResetPassword_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ResetPassword_swagger.yaml</file>
+    </artifact>
+    <artifact name="ResetPassword_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ResetPassword_metadata.yaml</file>
+    </artifact>
+    <artifact name="delevery_get_all_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/delevery_get_all_endpoint.xml</file>
+    </artifact>
+    <artifact name="GetAllDelivery" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/GetAllDelivery.xml</file>
+    </artifact>
+    <artifact name="GetAllDelivery_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/GetAllDelivery_swagger.yaml</file>
+    </artifact>
+    <artifact name="GetAllDelivery_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/GetAllDelivery_metadata.yaml</file>
+    </artifact>
+    <artifact name="delivery_get_by_id_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/delivery_get_by_id_endpoint.xml</file>
+    </artifact>
+    <artifact name="DeliveryGetByID" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/DeliveryGetByID.xml</file>
+    </artifact>
+    <artifact name="DeliveryGetByID_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/DeliveryGetByID_swagger.yaml</file>
+    </artifact>
+    <artifact name="DeliveryGetByID_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/DeliveryGetByID_metadata.yaml</file>
+    </artifact>
+    <artifact name="deliver_delete_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/deliver_delete_endpoint.xml</file>
+    </artifact>
+    <artifact name="RemoveDelivery" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/RemoveDelivery.xml</file>
+    </artifact>
+    <artifact name="RemoveDelivery_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/RemoveDelivery_swagger.yaml</file>
+    </artifact>
+    <artifact name="RemoveDelivery_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/RemoveDelivery_metadata.yaml</file>
+    </artifact>
+    <artifact name="delivery_create_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/delivery_create_endpoint.xml</file>
+    </artifact>
+    <artifact name="CreateNewDelivery" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CreateNewDelivery.xml</file>
+    </artifact>
+    <artifact name="CreateNewDelivery_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CreateNewDelivery_swagger.yaml</file>
+    </artifact>
+    <artifact name="CreateNewDelivery_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CreateNewDelivery_metadata.yaml</file>
+    </artifact>
+    <artifact name="delevery_update_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/delevery_update_endpoint.xml</file>
+    </artifact>
+    <artifact name="DeliveryUpdate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/DeliveryUpdate.xml</file>
+    </artifact>
+    <artifact name="DeliveryUpdate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/DeliveryUpdate_swagger.yaml</file>
+    </artifact>
+    <artifact name="DeliveryUpdate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/DeliveryUpdate_metadata.yaml</file>
+    </artifact>
+    <artifact name="category_create" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/category_create.xml</file>
+    </artifact>
+    <artifact name="CategoryCreate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CategoryCreate.xml</file>
+    </artifact>
+    <artifact name="CategoryCreate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryCreate_swagger.yaml</file>
+    </artifact>
+    <artifact name="CategoryCreate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryCreate_metadata.yaml</file>
+    </artifact>
+    <artifact name="category_get_all_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/category_get_all_endpoint.xml</file>
+    </artifact>
+    <artifact name="CategoryGetAll" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CategoryGetAll.xml</file>
+    </artifact>
+    <artifact name="CategoryGetAll_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryGetAll_swagger.yaml</file>
+    </artifact>
+    <artifact name="CategoryGetAll_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryGetAll_metadata.yaml</file>
+    </artifact>
+    <artifact name="category_getbyid_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/category_getbyid_endpoint.xml</file>
+    </artifact>
+    <artifact name="CategoryGetByID" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CategoryGetByID.xml</file>
+    </artifact>
+    <artifact name="CategoryGetByID_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryGetByID_swagger.yaml</file>
+    </artifact>
+    <artifact name="CategoryGetByID_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryGetByID_metadata.yaml</file>
+    </artifact>
+    <artifact name="category_remove_endoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/category_remove_endoint.xml</file>
+    </artifact>
+    <artifact name="CategoryDelete" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CategoryDelete.xml</file>
+    </artifact>
+    <artifact name="CategoryDelete_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryDelete_swagger.yaml</file>
+    </artifact>
+    <artifact name="CategoryDelete_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryDelete_metadata.yaml</file>
+    </artifact>
+    <artifact name="category_update_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/category_update_endpoint.xml</file>
+    </artifact>
+    <artifact name="CategoryUpdate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CategoryUpdate.xml</file>
+    </artifact>
+    <artifact name="CategoryUpdate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryUpdate_swagger.yaml</file>
+    </artifact>
+    <artifact name="CategoryUpdate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CategoryUpdate_metadata.yaml</file>
+    </artifact>
+    <artifact name="item_create_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/item_create_endpoint.xml</file>
+    </artifact>
+    <artifact name="ItemCreate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ItemCreate.xml</file>
+    </artifact>
+    <artifact name="ItemCreate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemCreate_swagger.yaml</file>
+    </artifact>
+    <artifact name="ItemCreate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemCreate_metadata.yaml</file>
+    </artifact>
+    <artifact name="item_get_all" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/item_get_all.xml</file>
+    </artifact>
+    <artifact name="ItemGetAll" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ItemGetAll.xml</file>
+    </artifact>
+    <artifact name="ItemGetAll_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemGetAll_swagger.yaml</file>
+    </artifact>
+    <artifact name="ItemGetAll_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemGetAll_metadata.yaml</file>
+    </artifact>
+    <artifact name="item_get_by_id" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/item_get_by_id.xml</file>
+    </artifact>
+    <artifact name="ItemGetByID" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ItemGetByID.xml</file>
+    </artifact>
+    <artifact name="ItemGetByID_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemGetByID_swagger.yaml</file>
+    </artifact>
+    <artifact name="ItemGetByID_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemGetByID_metadata.yaml</file>
+    </artifact>
+    <artifact name="item_delete_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/item_delete_endpoint.xml</file>
+    </artifact>
+    <artifact name="ItemDelete" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ItemDelete.xml</file>
+    </artifact>
+    <artifact name="ItemDelete_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemDelete_swagger.yaml</file>
+    </artifact>
+    <artifact name="ItemDelete_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemDelete_metadata.yaml</file>
+    </artifact>
+    <artifact name="item_update_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/item_update_endpoint.xml</file>
+    </artifact>
+    <artifact name="ItemUpdate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ItemUpdate.xml</file>
+    </artifact>
+    <artifact name="ItemUpdate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemUpdate_swagger.yaml</file>
+    </artifact>
+    <artifact name="ItemUpdate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ItemUpdate_metadata.yaml</file>
+    </artifact>
+    <artifact name="cart_create_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cart_create_endpoint.xml</file>
+    </artifact>
+    <artifact name="CartCreate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CartCreate.xml</file>
+    </artifact>
+    <artifact name="CartCreate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartCreate_swagger.yaml</file>
+    </artifact>
+    <artifact name="CartCreate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartCreate_metadata.yaml</file>
+    </artifact>
+    <artifact name="cart_get_all" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cart_get_all.xml</file>
+    </artifact>
+    <artifact name="CartGetAll" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CartGetAll.xml</file>
+    </artifact>
+    <artifact name="CartGetAll_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartGetAll_swagger.yaml</file>
+    </artifact>
+    <artifact name="CartGetAll_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartGetAll_metadata.yaml</file>
+    </artifact>
+    <artifact name="cart_get_byid_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cart_get_byid_endpoint.xml</file>
+    </artifact>
+    <artifact name="CartGetById" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CartGetById.xml</file>
+    </artifact>
+    <artifact name="CartGetById_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartGetById_swagger.yaml</file>
+    </artifact>
+    <artifact name="CartGetById_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartGetById_metadata.yaml</file>
+    </artifact>
+    <artifact name="cart_delete_byid_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cart_delete_byid_endpoint.xml</file>
+    </artifact>
+    <artifact name="CartDelete" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CartDelete.xml</file>
+    </artifact>
+    <artifact name="CartDelete_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartDelete_swagger.yaml</file>
+    </artifact>
+    <artifact name="CartDelete_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartDelete_metadata.yaml</file>
+    </artifact>
+    <artifact name="cart_update_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cart_update_endpoint.xml</file>
+    </artifact>
+    <artifact name="CartUpdate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/CartUpdate.xml</file>
+    </artifact>
+    <artifact name="CartUpdate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartUpdate_swagger.yaml</file>
+    </artifact>
+    <artifact name="CartUpdate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/CartUpdate_metadata.yaml</file>
+    </artifact>
+    <artifact name="prder_create_endpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/prder_create_endpoint.xml</file>
+    </artifact>
+    <artifact name="OrderCreate" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/OrderCreate.xml</file>
+    </artifact>
+    <artifact name="OrderCreate_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/OrderCreate_swagger.yaml</file>
+    </artifact>
+    <artifact name="OrderCreate_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/OrderCreate_metadata.yaml</file>
+    </artifact>
+</artifacts>

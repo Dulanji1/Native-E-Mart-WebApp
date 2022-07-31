@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: ItemCreate
+  description: API Definition of ItemCreate
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/item-create
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

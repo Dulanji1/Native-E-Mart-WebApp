@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: OrderCreate
+  description: API Definition of OrderCreate
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/order-create
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

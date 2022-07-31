@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: CategoryGetByID
+  description: API Definition of CategoryGetByID
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/category-getbyid
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response

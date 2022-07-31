@@ -1,0 +1,10 @@
+---
+key: "UserCreate-1.0.0"
+name : "UserCreate"
+displayName : "UserCreate"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/create-user"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

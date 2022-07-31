@@ -1,0 +1,10 @@
+---
+key: "CategoryUpdate-1.0.0"
+name : "CategoryUpdate"
+displayName : "CategoryUpdate"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/category-update"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

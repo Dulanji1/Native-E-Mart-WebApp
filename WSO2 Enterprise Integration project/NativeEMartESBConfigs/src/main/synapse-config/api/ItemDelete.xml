@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/item-delete" name="ItemDelete" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="DELETE">
+        <inSequence>
+            <log>
+                <property name="message" value="item-delete invoked"/>
+            </log>
+            <send>
+                <endpoint key="item_delete_endpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Administrator",
+    "priority": 1,
+    "isActive": true
+  },
+  {
+    "name": "User",
+    "priority": 2,
+    "isActive": true
+  }
+]

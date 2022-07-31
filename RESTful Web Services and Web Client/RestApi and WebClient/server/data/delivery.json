@@ -1,0 +1,19 @@
+[
+
+  {
+    "name"     : "Akila",
+    "address"    : "NO188,Malabe",
+    "email" : "akila@gmail.com",
+    "phone"   : "0771940055",
+    "cashOnDelivery": "cash",
+    "costPerKm": "120"
+  },
+  {
+    "name"     : "Nimsara",
+    "address"    : "NO18,Colombo",
+    "email" : "nim@gmail.com",
+    "phone"   : "0771989975",
+    "cashOnDelivery": "cash",
+    "costPerKm": "130"
+  }
+]
